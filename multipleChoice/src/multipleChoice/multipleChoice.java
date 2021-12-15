@@ -28,9 +28,9 @@ public class multipleChoice {
 		System.out.println(question);
 		System.out.println(choiceOne + "          " + choiceTwo);
 		System.out.println(choiceThree + "          " + choiceFour);
-		Scanner scanner = new Scanner(System.in);
+		Scanner scannerZero = new Scanner(System.in);
 		
-		String userAnswer = scanner.next();
+		String userAnswer = scannerZero.next();
 		
 		if (correctAnswer.equals(userAnswer.toLowerCase())) {
 			System.out.println("Correct");
